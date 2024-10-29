@@ -912,60 +912,6 @@ section,
   padding: 0;
 }
 
-.gallery-details .portfolio-description .testimonial-item {
-  padding: 30px 30px 0 30px;
-  position: relative;
-  background: color-mix(in srgb, var(--default-color), transparent 97%);
-  margin-bottom: 50px;
-}
-
-.gallery-details .portfolio-description .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  border: 6px solid var(--background-color);
-  float: left;
-  margin: 0 10px 0 0;
-}
-
-.gallery-details .portfolio-description .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 15px 0 5px 0;
-  padding-top: 20px;
-}
-
-.gallery-details .portfolio-description .testimonial-item h4 {
-  font-size: 14px;
-  color: #6c757d;
-  margin: 0;
-}
-
-.gallery-details .portfolio-description .testimonial-item .quote-icon-left,
-.gallery-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, var(--accent-color), transparent 50%);
-  font-size: 26px;
-  line-height: 0;
-}
-
-.gallery-details .portfolio-description .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.gallery-details .portfolio-description .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-  transform: scale(-1, -1);
-}
-
-.gallery-details .portfolio-description .testimonial-item p {
-  font-style: italic;
-  margin: 0 0 15px 0 0 0;
-  padding: 0;
-}
 
 /*--------------------------------------------------------------
 # Services Section
@@ -1235,5 +1181,63 @@ article {
   -ms-transform: translateZ(-10rem);
   -o-transform: translateZ(-10rem);
   transform: translateZ(-10rem);
+}
+
+.years {
+  font-size: 16px;
+  margin: 1%;
+  padding: 0.4%;
+  background-color: #a2d2ff;
+  color: #091d3b;
+  border-radius: 10%;
+  font-weight: 700;
+}
+
+
+
+:root {
+  --moon-size: 150px;
+  --moon-shadow:var(--background-color);
+  --moon-color: #F0F0C0;
+}
+
+.circle {
+  margin-left: 20px;
+  display: inline-block;
+  height: var(--moon-size);
+  width: var(--moon-size);
+  background: var(--moon-color);
+  border-radius: 50% 50% 50% 50%;
+  border-color: #17396d00;
+}
+
+#html {
+  background: var(--moon-color);
+  box-shadow: inset -20px 0 0 -10px var(--moon-shadow);
+}
+
+#css {
+  background: var(--moon-color);
+  box-shadow: inset -30px 0 0 -10px var(--moon-shadow);
+}
+
+#Java {
+  background: var(--moon-color);
+  box-shadow: inset -50px 0 0 -10px var(--moon-shadow);
+}
+
+#ps {
+  background: var(--moon-color);
+  box-shadow: inset -30px 0 0 -10px var(--moon-shadow);
+}
+
+#illustrator {
+  background: var(--moon-color);
+  box-shadow: inset -30px 0 0 -10px var(--moon-shadow);
+}
+
+
+#five {
+  background: var(--moon-color);
 }
 
