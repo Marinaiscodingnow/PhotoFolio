@@ -11,6 +11,7 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
+
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Cardo",  sans-serif;
@@ -1079,9 +1080,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
 
 
 
@@ -1239,5 +1237,55 @@ article {
 
 #five {
   background: var(--moon-color);
+}
+
+
+.dot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(252, 227, 181);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-card {
+  display: none;
+  position: absolute;
+  left: 120%; /* Adjust as needed */
+  top: 50%; /* Adjust as needed */
+  transform: translateY(-50%);
+  width: 200px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.product-card {
+  margin: 10px 0;
+  font-size: 16px;
+  color: black;
+}
+
+.product-card button {
+  padding: 10px 15px;
+  background-color: rgb(245, 215, 160);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Show card on hover */
+.dot:hover .product-card {
+  display: block;
 }
 

@@ -196,3 +196,14 @@ window.onload = function() {
 
 })();
 
+document.querySelectorAll('.dot').forEach(dot => {
+  dot.addEventListener('mouseenter', function () {
+      const card = this.querySelector('.product-card');
+      card.style.display = 'block';
+  });
+
+  dot.addEventListener('mouseleave', function () {
+      const card = this.querySelector('.product-card');
+      card.style.display = 'none';
+  });
+});
