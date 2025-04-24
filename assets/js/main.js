@@ -202,7 +202,7 @@ document.querySelectorAll('.dot').forEach(dot => {
       card.style.display = 'block';
   });
 
-  dot.addEventListener('mouseleave', function () {
+  dot.addEventListener('click', function () {
       const card = this.querySelector('.product-card');
       card.style.display = 'none';
   });
