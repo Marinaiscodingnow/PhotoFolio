@@ -1184,10 +1184,10 @@ article {
 .years {
   font-size: 16px;
   margin: 1%;
-  padding: 0.4%;
+  padding: 0.8%;
   background-color: #a2d2ff;
   color: #091d3b;
-  border-radius: 10%;
+  border-radius: 6px;
   font-weight: 700;
 }
 
