@@ -1216,22 +1216,22 @@ article {
 
 #css {
   background: var(--moon-color);
-  box-shadow: inset -30px 0 0 -10px var(--moon-shadow);
+  box-shadow: inset -20px 0 0 -10px var(--moon-shadow);
 }
 
 #Java {
   background: var(--moon-color);
-  box-shadow: inset -50px 0 0 -10px var(--moon-shadow);
-}
-
-#ps {
-  background: var(--moon-color);
   box-shadow: inset -30px 0 0 -10px var(--moon-shadow);
 }
 
-#illustrator {
+#Python {
   background: var(--moon-color);
-  box-shadow: inset -30px 0 0 -10px var(--moon-shadow);
+  box-shadow: inset -40px 0 0 -10px var(--moon-shadow);
+}
+
+#C {
+  background: var(--moon-color);
+  box-shadow: inset -60px 0 0 -10px var(--moon-shadow);
 }
 
 
@@ -1240,11 +1240,21 @@ article {
 }
 
 
+.book{
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  background-image: url(img/me.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+
 .dot {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: rgb(252, 227, 181);
+  background-color: rgb(243, 238, 191);
   border-radius: 50%;
   cursor: pointer;
 }
